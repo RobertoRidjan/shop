@@ -1,0 +1,237 @@
+/* 1344px */
+@media(max-width: 84em) {
+	.dropdown .dropdown-content a img {
+        max-width: 25rem;
+    }
+
+    .productList_4 {
+        padding: 2.5rem 5rem 0 5rem;
+        margin-bottom: 4.5rem;
+    }
+
+    .trendsSaleContent {
+        padding: 0 5rem;
+    }
+
+    .emailNotification_form {
+        padding: 0 5rem;
+    }
+
+    .footer-container .footer-items {
+        padding: 5rem 5rem;
+    }
+}
+
+
+/* 1200px */
+@media(max-width: 75em) {
+    html {
+      	font-size: 56.25%;
+    }
+
+    .dropdown .dropdown-content a img {
+        max-width: 20rem;
+    }
+
+    .slider .slider-text h1 {
+        font-size: 8rem;
+    }
+
+    .slider .slider-text h2 {
+        font-size: 2rem;
+    }
+
+    .cart-container .cartItems-container {
+        padding: 5rem;
+    }
+
+    .cart-container .payment-container {
+        padding: 5rem;
+    }
+}
+
+
+/* 944px */
+@media (max-width: 59em) {
+    html {
+      	font-size: 50%;
+    }
+
+    .dropdown .dropdown-content a img {
+        max-width: 17rem;
+    }
+
+    .emailNotification-container .emailNotification_form button i {
+        display: none;
+    }
+
+    .footer-container .footer-items {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .footer-items .footer-items_first {
+        padding-bottom: 1rem;
+        padding-top: 3rem;
+    }
+
+    .cart-container .cartItems-container {
+        padding: 3rem;
+    }
+
+    .cartItems-container .payment-container {
+        padding: 3rem;
+    }
+
+    .loginRegister-container {
+        display: block !important;
+    }
+
+    .loginRegister-container .login-container {
+        width: 100%;
+        height: 60rem;
+    }
+
+    .loginRegister-container .register-container {
+        width: 100%;
+        height: 60rem;
+    }
+}
+
+
+/* 704px */
+@media (max-width: 44em) {
+    .mainMenu .dropdown {
+        padding: 0 2rem;
+    }
+
+    .mainMenu .dropdown button {
+        font-size: 1.4rem;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: grid !important;
+        grid-template-columns: repeat(2, 2fr) !important;
+    }
+
+    .dropdown .dropdown-content a img {
+        max-width: 25rem;
+    }
+
+    .slider .slider-text h1 {
+        font-size: 5rem;
+    }
+
+    .slider .slider-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .trendsSaleContainer .trendsSaleContent {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        padding: 0 5rem;
+    }
+
+    .emailNotification-container .emailNotification_form button {
+        padding: 0 1rem;
+        font-size: 1.5rem;
+    }
+
+    .emailNotification-container h1 {
+        padding: 0 5rem;
+    }
+
+    .cart-container {
+        display: block !important;
+    }
+    
+    .cart-container .payment-container {
+        width: 100%;
+    }
+
+    .cart-container .cartItems-container {
+        width: 100%;
+    }
+
+    .products-container {
+        display: block !important;
+    }
+
+    .products-container .products_sidebar {
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        width: 100%;
+        padding: 0;
+        padding-top: 5rem;
+        text-align: center;
+    }
+
+    .products-container .products_content {
+        width: 100%;
+        padding: 2.5rem;
+    }
+}
+
+
+/* 544px */
+@media (max-width: 34em) {
+    .dropdown .dropdown-content a img {
+        max-width: 18rem;
+    }
+
+    .mainMenu .dropdown button {
+        font-size: 1.2rem;
+    }
+
+    .mainMenu .dropdown {
+        padding: 0 1rem;
+    }
+
+    .slider .slider-text {
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .slider .slider-text h2 {
+        display: none;
+    }
+
+    .productList_4 {
+        display: grid !important;
+        grid-template-columns: repeat(2, 2fr) !important;
+    }
+
+    .emailNotification-container .emailNotification_form input {
+        width: 50%;
+        font-size: 1.5rem;
+    }
+
+    .emailNotification-container .emailNotification_form {
+        justify-content: center;
+    }
+
+    .emailNotification-container .emailNotification_form input {
+        width: 70%;
+    }
+    
+    .emailNotification-container .emailNotification_form button {
+        width: 25%;
+    }
+
+    .footer-container .footer-items {
+        display: grid;
+        grid-template-columns: repeat(1, 4fr);
+    }
+    
+    .footer-container .footerInfo {
+        padding: 0 5rem;
+        padding-bottom: 4rem;
+        line-height: 3rem;
+    }
+}
+  
+  
+  
+  
